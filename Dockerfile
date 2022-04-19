@@ -1,6 +1,6 @@
 # Build the manager binary
-#FROM golang:1.12.17 as builder
-FROM klstg-docker.slb-wartifactory-v.stg.rmn.local/rakuten/rflow/rflow-go:1.17 AS builder
+FROM golang:1.18.1 as builder
+#FROM klstg-docker.slb-wartifactory-v.stg.rmn.local/rakuten/rflow/rflow-go:1.17 AS builder
 
 ENV GO111MODULE=on
 
